@@ -1,0 +1,43 @@
+Source: kanotix-graphics
+Section: misc
+Priority: optional
+Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Uploaders: Kel Modderman <kelrin@tpg.com.au>
+Build-Depends: cdbs, debhelper (>= 5.0.0), gfxboot, gfxboot-theme-kanotix (>= 0.3.1)
+Standards-Version: 3.7.2
+
+Package: kanotix-graphics-common
+Architecture: all
+Conflicts: kanotix-graphics (<< 0.6.0)
+Replaces: kanotix-graphics (<< 0.6.0)
+Description: artwork common to all Kanotix versions
+ This package contains generic artwork that is not specifc to any
+ Kanotix release architecture.
+ .
+ It currently includes custom Kanotix kside and kmenu graphics.
+
+Package: kanotix-graphics
+Conflicts: kanotix64-graphics
+Pre-Depends: kanotix-graphics-common
+Depends: kdm-theme-kanotix-penguins, ksplash-theme-kanotix-clouds, splashy-theme-kanotix-penguins
+Architecture: all
+Description: artwork and themes for Kanotix
+ This package contains the wallpaper that is checked for and required
+ by the xsession startup script(s) on Kanotix. It also contains the
+ grub-gfxboot theme.
+ .
+ This package also serves as a virtual package that brings together
+ the complete Kanotix64 theme.
+
+Package: kanotix64-graphics
+Provides: kanotix-graphics
+Conflicts: kanotix-graphics
+Pre-Depends: kanotix-graphics-common
+Depends: kdm-theme-kanotix64-penguins, ksplash-theme-kanotix-clouds, splashy-theme-kanotix64-penguins
+Architecture: all
+Description: artwork and themes for Kanotix64
+ This package contains the wallpaper that is checked for and required
+ by the xsession startup script(s) on Kanotix64.
+ .
+ This package also serves as a virtual package that brings together
+ the complete Kanotix64 theme.

@@ -1,0 +1,62 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/buildcore.mk
+include /usr/share/cdbs/1/rules/debhelper.mk
+
+GFXTMP := debian/tmp/gfxboot/build
+GFXARCH := kanotix kanotix64
+
+common-build-indep::
+	for arch in $(GFXARCH); do \
+		rm -rf $(GFXTMP); \
+		mkdir -p $(GFXTMP); \
+		cp -r --dereference \
+			/usr/share/gfxboot-theme-kanotix/gfxboot-theme/$$arch-*/* \
+			$(GFXTMP)/; \
+		$(MAKE) -C $(GFXTMP); \
+		install -D -m 0644 $(GFXTMP)/boot/message \
+			gfxboot-$$arch/message.hd; \
+		rm -rf $(GFXTMP); \
+		mkdir -p $(GFXTMP); \
+		cp -r --dereference \
+			/usr/share/gfxboot-theme-kanotix/gfxboot-theme/$$arch-*/* \
+			$(GFXTMP)/; \
+		sed -i 's#^/livecd false def#/livecd true def#' $(GFXTMP)/boot.config; \
+		$(MAKE) -C $(GFXTMP); \
+		install -D -m 0644 $(GFXTMP)/boot/message \
+			gfxboot-$$arch/message.live; \
+	done
+
+install/kanotix-graphics-common::
+	# ksplash
+	install -D -m 0644 ksplashrc \
+		debian/kanotix-graphics-common/etc/skel/.kde/share/config/ksplashrc
+	# kside
+	install -D -m 0644 kside/kside.png \
+		debian/kanotix-graphics-common/usr/share/apps/kicker/pics/kside.png
+	# kmenu
+	for size in 16x16 22x22 32x32 48x48 64x64 128x128; do \
+		install -D -m 0644 kmenu/$$size/kmenu.png \
+			debian/kanotix-graphics-common/usr/share/icons/crystalsvg/$$size/apps/kmenu.png; \
+	done
+
+install/kanotix-graphics::
+	# wallpaper
+	install -D -m 0644 wallpaper/KanotixPenguins.jpg \
+		debian/kanotix-graphics/usr/share/wallpapers/kanotix.png
+	# gfxboot message files
+	mkdir -p debian/kanotix-graphics/boot/
+	install -m 0644 gfxboot-kanotix/message.* \
+		debian/kanotix-graphics/boot/
+
+install/kanotix64-graphics::
+	# wallpaper
+	install -D -m 0644 wallpaper/Kanotix64Penguins.jpg \
+		debian/kanotix64-graphics/usr/share/wallpapers/kanotix.png
+	# gfxboot message files
+	mkdir -p debian/kanotix64-graphics/boot/
+	install -m 0644 gfxboot-kanotix64/message.* \
+		debian/kanotix64-graphics/boot/
+
+clean::
+	rm -rf gfxboot-*

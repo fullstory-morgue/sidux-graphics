@@ -1,0 +1,22 @@
+#! /bin/sh
+
+undivert_gfx () {
+	dpkg-divert --remove --rename --package kanotix-graphics-common \
+		--divert $1.kanotix $1
+}
+
+case "$1" in
+	purge|remove|failed-upgrade|abort-install|abort-upgrade|disappear)
+		undivert_gfx /usr/share/apps/kicker/pics/kside.png
+		undivert_gfx /usr/share/icons/crystalsvg/128x128/apps/kmenu.png
+		undivert_gfx /usr/share/icons/crystalsvg/16x16/apps/kmenu.png
+		undivert_gfx /usr/share/icons/crystalsvg/22x22/apps/kmenu.png
+		undivert_gfx /usr/share/icons/crystalsvg/32x32/apps/kmenu.png
+		undivert_gfx /usr/share/icons/crystalsvg/48x48/apps/kmenu.png
+		undivert_gfx /usr/share/icons/crystalsvg/64x64/apps/kmenu.png
+		;;
+esac
+
+#DEBHELPER#
+
+exit 0

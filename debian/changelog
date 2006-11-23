@@ -1,0 +1,210 @@
+kanotix-graphics (0.6.7) unstable; urgency=low
+
+  * rebuild against new gfxboot-theme-kanotix.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 15 Sep 2006 02:13:58 +0200
+
+kanotix-graphics (0.6.6) unstable; urgency=low
+
+  * Revert wallpaper change.
+  * Fix up the stupid postinst change from previous. 
+
+ -- Kel Modderman <kelrin@tpg.com.au>  Thu, 14 Sep 2006 09:05:33 +1000
+
+kanotix-graphics (0.6.4) unstable; urgency=low
+
+  * New bakgrounds, Kanotix moved to top right.
+  * Create compat /boot/message symlink.
+
+ -- Kel Modderman <kelrin@tpg.com.au>  Wed, 13 Sep 2006 19:01:06 +1000
+
+kanotix-graphics (0.6.3) unstable; urgency=low
+
+  * Add 64 bit gfxboot theme for 2006.
+  * Add ksplashrc to etc/skel.
+
+ -- Kel Modderman <kelrin@tpg.com.au>  Mon, 11 Sep 2006 08:08:07 +1000
+
+kanotix-graphics (0.6.2) unstable; urgency=low
+
+  * Add versioned conflicts/replaces to kanotix-graphics-common to ease
+    upgrade path.
+  * Fixed dpkg-divert usage, previous usage was not sanely removable.
+  * Avoid confliction with previous diversion by removing it on upgrade.
+  * Drop compat with kanotixbh-graphics.
+  * Nasty use of Pre-Depends to avoid upgrade problems with previous
+    kanotix-graphics.
+  * Add gfxboot framework.
+  * Allow upgrade from experimental 0.6.0 version (avoid diversion mess).
+  * Modify postinst to not puke with exit status 1. 
+
+ -- Kel Modderman <kelrin@tpg.com.au>  Sun, 10 Sep 2006 22:22:26 +1000
+
+kanotix-graphics (0.6.1) unstable; urgency=low
+
+  * New package layout
+    - modular graphics theme, this package provides the meta-packages for each
+      arch specific theme
+    - *-common package for arch independent graphics
+
+ -- Kel Modderman <kelrin@tpg.com.au>  Mon,  7 Aug 2006 20:35:53 +1000
+
+kanotix-graphics (0.6.0) unstable; urgency=low
+
+  * transition to gfxboot 3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 20 Apr 2006 00:54:00 +0200
+
+kanotix-graphics (0.5.2) unstable; urgency=low
+
+  * Update for CeBIT 2006 release.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  9 Mar 2006 12:19:06 +0100
+
+kanotix-graphics (0.5.1) unstable; urgency=low
+
+  * remove cdbs auto-update feature.
+  * remove knoppix virtual packages.
+  * bump compat level to 5.
+  * remove obsolete compatibility links in /usr/local/.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 17 Dec 2005 12:00:22 +0100
+
+kanotix-graphics (0.5) unstable; urgency=low
+
+  * completely overhaul packaging.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 10 Oct 2005 18:26:23 +0200
+
+kanotix-graphics (0.4.4) unstable; urgency=low
+
+  * update interims gfxboot graphics for 2005-04.
+  * bump standards version to 3.6.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 14 Jul 2005 16:18:36 +0200
+
+kanotix-graphics (0.4.3) unstable; urgency=low
+
+  * Update for Kanotix 2005-03.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 28 May 2005 17:50:15 +0200
+
+kanotix-graphics (0.4.2) unstable; urgency=low
+
+  * remove Bug Hunter reference from gfxboot message.
+  * re- add Bug Hunter graphics theme.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat,  9 Apr 2005 14:17:42 +0200
+
+kanotix-graphics (0.4.1) unstable; urgency=low
+
+  * remove splash=silent.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed,  6 Apr 2005 20:11:47 +0200
+
+kanotix-graphics (0.4) unstable; urgency=low
+
+  * merge kanotix-graphics and kanotix64-graphics:
+    - recreated from scratch
+    - preserve changelog
+    - remove compatibilty files
+  * add X11 screen selection
+  * import new gfxboot changes from apoplex:
+    - screen XxY support
+    - activate bootsplash on default
+  * fix/ hide lintian issues
+  * change versioning scheme
+  * update for 2005-02 releases.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 17 Mar 2005 22:02:20 +0100
+
+kanotix-graphics (0.3+20040205-1) unstable; urgency=low
+
+  * activate splash on default. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat,  5 Feb 2005 18:25:28 +0100
+
+kanotix-graphics (0.3+20040203-1) unstable; urgency=low
+
+  * add bootsplash. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  3 Feb 2005 15:26:17 +0100
+
+kanotix-graphics (0.3+20040202-2) unstable; urgency=low
+
+  * fix ksplashrc. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  3 Feb 2005 00:19:30 +0100
+
+kanotix-graphics (0.3+20040202-1) unstable; urgency=low
+
+  * small packaging changes.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed,  2 Feb 2005 13:34:19 +0100
+
+kanotix-graphics (0.3+20040131-5) unstable; urgency=low
+
+  * modify wallpaper. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 31 Jan 2005 23:52:56 +0100
+
+kanotix-graphics (0.3+20040131-4) unstable; urgency=low
+
+  * fix postinst. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 31 Jan 2005 23:26:32 +0100
+
+kanotix-graphics (0.3+20040131-3) unstable; urgency=low
+
+  * fix ksplash. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 31 Jan 2005 22:34:13 +0100
+
+kanotix-graphics (0.3+20040131-2) unstable; urgency=low
+
+  * fix wallpaper. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 31 Jan 2005 22:11:33 +0100
+
+kanotix-graphics (0.3+20040131-1) unstable; urgency=low
+
+  * synch with kanotix64-graphics.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 15 Dec 2004 15:12:43 +0100
+
+kanotix-graphics (0.2+BHX-1) unstable; urgency=low
+
+  * remove Icons (--> moved to kanotix-menu).
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 15 Dec 2004 15:12:43 +0100
+
+kanotix-graphics (0.2+BHX-1~pre3) unstable; urgency=low
+
+  * added preliminary ksplash for BH Xpre. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 22 Nov 2004 15:29:36 +0100
+
+kanotix-graphics (0.2+BHX-1~pre2) unstable; urgency=low
+
+  * re- add knoppix icon set. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 20 Nov 2004 01:59:59 +0100
+
+kanotix-graphics (0.2+BHX-1~pre1) unstable; urgency=low
+
+  * add grub-gfxboot theme.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 19 Nov 2004 23:55:36 +0100
+
+kanotix-graphics (0.1+BH9a-2) unstable; urgency=low
+
+  * add transition package. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat,  6 Nov 2004 17:36:36 +0100
+
+kanotix-graphics (0.1+BH9a-1) unstable; urgency=low
+
+  * Initial version.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri,  5 Nov 2004 21:15:46 +0100
+
