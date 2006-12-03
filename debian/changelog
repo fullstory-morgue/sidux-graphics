@@ -1,4 +1,4 @@
-kanotix-graphics (0.7.0) unstable; urgency=low
+sidux-graphics (0.7.0) unstable; urgency=low
 
   * rebuild against new gfxboot-theme-kanotix.
   * don't depend on kdm-themes for now.
