@@ -1,3 +1,9 @@
+sidux-graphics (0.7.5) unstable; urgency=low
+
+  * take care to kill stale symlinks on purge.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  3 Dec 2006 19:39:44 +0100
+
 sidux-graphics (0.7.4) unstable; urgency=low
 
   * [ -f /boot/message ] seems to trigger for links - reverse logic...
