@@ -1,3 +1,9 @@
+sidux-graphics (0.7.4) unstable; urgency=low
+
+  * [ -f /boot/message ] seems to trigger for links - reverse logic...
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  3 Dec 2006 19:30:26 +0100
+
 sidux-graphics (0.7.3) unstable; urgency=low
 
   * yet another optimization for /boot/message file handling.
