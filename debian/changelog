@@ -1,9 +1,15 @@
+sidux-graphics (0.7.1) unstable; urgency=low
+
+  * fix message file handling.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  3 Dec 2006 19:02:19 +0100
+
 sidux-graphics (0.7.0) unstable; urgency=low
 
   * rebuild against new gfxboot-theme-kanotix.
   * don't depend on kdm-themes for now.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  3 Dec 2006 18:18:13 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  3 Dec 2006 19:02:14 +0100
 
 kanotix-graphics (0.6.6) unstable; urgency=low
 
