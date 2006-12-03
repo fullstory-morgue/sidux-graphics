@@ -1,3 +1,10 @@
+sidux-graphics (0.7.6) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+  * link to GPL-2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  3 Dec 2006 19:46:02 +0100
+
 sidux-graphics (0.7.5) unstable; urgency=low
 
   * take care to kill stale symlinks on purge.
