@@ -1,8 +1,9 @@
-kanotix-graphics (0.6.7) unstable; urgency=low
+kanotix-graphics (0.7.0) unstable; urgency=low
 
   * rebuild against new gfxboot-theme-kanotix.
+  * don't depend on kdm-themes for now.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 15 Sep 2006 02:13:58 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  3 Dec 2006 18:18:13 +0100
 
 kanotix-graphics (0.6.6) unstable; urgency=low
 
