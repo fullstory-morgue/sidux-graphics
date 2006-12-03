@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/bin/sh
 # postinst script for #PACKAGE#
 #
 # see: dh_installdeb(1)
@@ -19,20 +19,17 @@ set -e
 
 case "$1" in
     configure)
-	if test -f /boot/message; then
+	if [ -f /boot/message ]; then
 		echo "legacy message file detect, please ensure that you have actually"
-		echo "installed grub-gfxboot >= 0.97-4 in your bootsector!"
+		echo "installed grub-gfxboot >= 0.97-12 in your bootsector!"
 		echo "For switching to the new message format, please use:"
 		echo "\"ln -fs message.hd /boot/message\" as root."
 		exit 0
-	else
-		if test -f /boot/message;
-			echo "Backing up legacy /boot/message  to /boot/message.dpkg-old"
-			rm -f /boot/message.dpkg-old
-			cp -f --dereference /boot/message /boot/message.dpkg-old
-			rm -f /boot/message
-		fi
+	elif [ -L /boot/message ] || [ ! -e /boot/message ]; then
 		ln -fs message.hd /boot/message
+	else
+		echo "Error: can't install /boot/message."
+		exit 1
 	fi
     ;;
 
