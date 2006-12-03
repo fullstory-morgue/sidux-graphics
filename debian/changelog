@@ -1,3 +1,10 @@
+sidux-graphics (0.7.3) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+  * yet another optimization for /boot/message file handling.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  3 Dec 2006 19:10:25 +0100
+
 sidux-graphics (0.7.2) unstable; urgency=low
 
   * allow from-scratch installs.

@@ -26,10 +26,12 @@ case "$1" in
 		echo "\"ln -fs message.hd /boot/message\" as root."
 		exit 0
 	else
-		echo "Backing up legacy /boot/message  to /boot/message.dpkg-old"
-		rm -f /boot/message.dpkg-old
-		test -e /boot/message && cp -f --dereference /boot/message /boot/message.dpkg-old || true
-		rm -f /boot/message
+		if test -f /boot/message;
+			echo "Backing up legacy /boot/message  to /boot/message.dpkg-old"
+			rm -f /boot/message.dpkg-old
+			cp -f --dereference /boot/message /boot/message.dpkg-old
+			rm -f /boot/message
+		fi
 		ln -fs message.hd /boot/message
 	fi
     ;;
