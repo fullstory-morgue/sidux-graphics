@@ -2,8 +2,9 @@ sidux-graphics (0.7.6) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
   * link to GPL-2.
+  * fixed mispelling
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  3 Dec 2006 19:46:02 +0100
+ -- Joaquim Boura <x-un-i@sidux.com>  Mon,  4 Dec 2006 14:53:32 +0100
 
 sidux-graphics (0.7.5) unstable; urgency=low
 
