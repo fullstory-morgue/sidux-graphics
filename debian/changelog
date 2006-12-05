@@ -1,10 +1,13 @@
-sidux-graphics (0.7.6) UNRELEASED; urgency=low
+sidux-graphics (0.7.6) unstable; urgency=low
 
-  * NOT RELEASED YET
+  [ Joaquim Boura ]
   * link to GPL-2.
   * fixed mispelling
 
- -- Joaquim Boura <x-un-i@sidux.com>  Mon,  4 Dec 2006 14:53:32 +0100
+  [ Stefan Lippers-Hollmann ]
+  * new upload to pull in the slightly cleaned up graphics.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue,  5 Dec 2006 11:06:51 +0100
 
 sidux-graphics (0.7.5) unstable; urgency=low
 
