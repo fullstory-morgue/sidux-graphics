@@ -1,12 +1,11 @@
-sidux-graphics (0.7.7) UNRELEASED; urgency=low
+sidux-graphics (0.7.7) unstable; urgency=low
 
-  * NOT RELEASED YET
   * use cleary's wallpaper for now, we don't have a license for the NASA
     images yet.
   * the ksplash theme is called sidux-2006.
   * add the logo.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 23 Dec 2006 01:56:21 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 23 Dec 2006 02:03:50 +0100
 
 sidux-graphics (0.7.6) unstable; urgency=low
 
