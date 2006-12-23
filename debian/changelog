@@ -1,3 +1,9 @@
+sidux-graphics (0.7.8) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 23 Dec 2006 02:19:39 +0100
+
 sidux-graphics (0.7.7) unstable; urgency=low
 
   * use cleary's wallpaper for now, we don't have a license for the NASA
