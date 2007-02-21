@@ -1,3 +1,9 @@
+sidux-graphics (0.7.13) unstable; urgency=low
+
+  * pull in new gfxboot-theme-sidux.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 21 Feb 2007 05:55:14 +0100
+
 sidux-graphics (0.7.12) unstable; urgency=low
 
   * update graphics.
