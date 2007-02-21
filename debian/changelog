@@ -1,8 +1,8 @@
-sidux-graphics (0.7.11) UNRELEASED; urgency=low
+sidux-graphics (0.7.12) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * update graphics.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 21 Feb 2007 03:41:23 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 21 Feb 2007 05:45:49 +0100
 
 sidux-graphics (0.7.10) unstable; urgency=low
 
