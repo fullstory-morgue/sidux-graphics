@@ -1,8 +1,14 @@
+sidux-graphics (0.7.10) unstable; urgency=low
+
+  * test new gfxboot.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 21 Feb 2007 03:33:55 +0100
+
 sidux-graphics (0.7.9) unstable; urgency=low
 
   * include new gfxboot-theme-sidux documentation.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 30 Jan 2007 16:06:17 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 21 Feb 2007 03:33:43 +0100
 
 sidux-graphics (0.7.8) unstable; urgency=low
 
