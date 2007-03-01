@@ -1,8 +1,15 @@
+sidux-graphics (0.7.14) unstable; urgency=low
+
+  * kanotix-graphics/ kanotix64-graphics were never part of sidux or debian,
+    don't conflict with it.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  1 Mar 2007 17:58:34 +0100
+
 sidux-graphics (0.7.13) unstable; urgency=low
 
   * pull in new gfxboot-theme-sidux.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 21 Feb 2007 05:55:14 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  1 Mar 2007 17:58:25 +0100
 
 sidux-graphics (0.7.12) unstable; urgency=low
 

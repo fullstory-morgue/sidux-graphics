@@ -8,7 +8,6 @@ Standards-Version: 3.7.2
 
 Package: sidux-graphics-common
 Architecture: all
-Conflicts: kanotix-graphics, kanotix64-graphics
 Description: artwork common to all sidux versions
  This package contains generic artwork that is not specifc to any
  sidux release architecture.
@@ -17,7 +16,6 @@ Description: artwork common to all sidux versions
 
 Package: sidux-graphics
 Architecture: all
-Conflicts: kanotix-graphics, kanotix64-graphics
 Description: artwork and themes for sidux
  This package contains the wallpaper that is checked for and required
  by the xsession startup script(s) on sidux. It also contains the
