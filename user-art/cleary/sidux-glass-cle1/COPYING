@@ -1,0 +1,13 @@
+sidux-glass-cle1
+
+All binary image formats have been generated from 
+svg source located in the ./.source directory.
+
+These images and their source are 
+Copyright Bernard Gray 2007 <bernard.gray@gmail.com>
+and licensed under the GPL v2 or higher.
+
+For licensing information per svg document, 
+run the following command:
+sed -n '/metadata/,/\/metadata/p' ./.source/*.svg
+
