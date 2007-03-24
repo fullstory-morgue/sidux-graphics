@@ -4,9 +4,10 @@ sidux-graphics (0.7.15) UNRELEASED; urgency=low
   * NOT RELEASED YET
 
   [ Bernard Gray ]
-  * initial user art added from tartarus wallpaper comp 
+  * initial user art added from tartarus wallpaper comp
+  * added more sidux-snake themes for zulu9 
 
- -- Bernard Gray <bernard.gray@gmail.com>  Fri, 23 Mar 2007 02:12:53 +1100
+ -- Bernard Gray <bernard.gray@gmail.com>  Sat, 24 Mar 2007 17:56:42 +1100
 
 sidux-graphics (0.7.14) unstable; urgency=low
 
