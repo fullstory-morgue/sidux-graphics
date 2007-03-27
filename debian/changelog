@@ -5,9 +5,11 @@ sidux-graphics (0.7.15) UNRELEASED; urgency=low
 
   [ Bernard Gray ]
   * initial user art added from tartarus wallpaper comp
-  * added more sidux-snake themes for zulu9 
+  * added more sidux-snake themes for zulu9
+  * added a stack of user wallpapers
+  * added previews for TheBlunderBuss' svgs
 
- -- Bernard Gray <bernard.gray@gmail.com>  Sat, 24 Mar 2007 17:56:42 +1100
+ -- Bernard Gray <bernard.gray@gmail.com>  Tue, 27 Mar 2007 14:07:50 +1000
 
 sidux-graphics (0.7.14) unstable; urgency=low
 
