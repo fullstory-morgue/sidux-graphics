@@ -43,7 +43,7 @@ install/sidux-graphics-common::
 install/sidux-graphics::
 	# wallpaper - no longer required, see sidux-art-wallpaper
 	#install -D -m 0644 wallpaper/background.jpg \
-		debian/sidux-graphics/usr/share/wallpapers/sidux.jpg
+	#	debian/sidux-graphics/usr/share/wallpapers/sidux.jpg
 	# gfxboot message files
 	mkdir -p debian/sidux-graphics/boot/
 	install -m 0644 gfxboot-sidux/message.* \

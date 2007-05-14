@@ -1,5 +1,6 @@
 sidux-graphics (0.7.15) unstable; urgency=low
 
+  [ Bernard Gray ]
   * initial user art added from tartarus wallpaper comp
   * added more sidux-snake themes for zulu9
   * added a stack of user wallpapers
@@ -7,9 +8,12 @@ sidux-graphics (0.7.15) unstable; urgency=low
   * added rodneyck's comp entry
   * added the last of the Tartaros wallpaper comp entries
   * add last of the valid entries in wallpaper thread
-  * remove legacy sidux.jpg wallpaper install in rules 
+  * remove legacy sidux.jpg wallpaper install in rules
 
- -- Bernard Gray <bernard.gray@gmail.com>  Tue, 15 May 2007 01:03:36 +1000
+  [ Stefan Lippers-Hollmann ]
+  * comment out the full call to sidux.jpg.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 14 May 2007 22:15:07 +0200
 
 sidux-graphics (0.7.14) unstable; urgency=low
 
