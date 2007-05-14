@@ -1,9 +1,5 @@
-sidux-graphics (0.7.15) UNRELEASED; urgency=low
+sidux-graphics (0.7.15) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Bernard Gray ]
   * initial user art added from tartarus wallpaper comp
   * added more sidux-snake themes for zulu9
   * added a stack of user wallpapers
