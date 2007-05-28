@@ -1,14 +1,9 @@
-sidux-graphics (0.7.18) UNRELEASED; urgency=low
-
-  * NOT RELEASED YET
-
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 28 May 2007 14:55:29 +0200
-
 sidux-graphics (0.7.17) unstable; urgency=low
 
   * rebuild against current gfxboot.
+  * tighten build-deps.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 28 May 2007 14:50:21 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 28 May 2007 15:02:32 +0200
 
 sidux-graphics (0.7.16) unstable; urgency=low
 
