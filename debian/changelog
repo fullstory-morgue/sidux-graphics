@@ -1,8 +1,8 @@
-sidux-graphics (0.7.16) UNRELEASED; urgency=low
+sidux-graphics (0.7.16) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * rebuild against new gfxboot-theme-sidux.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 14 May 2007 22:18:01 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 28 May 2007 11:42:15 +0200
 
 sidux-graphics (0.7.15) unstable; urgency=low
 
