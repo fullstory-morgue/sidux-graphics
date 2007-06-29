@@ -6,14 +6,6 @@ Uploaders: Kel Modderman <kelrin@tpg.com.au>
 Build-Depends: cdbs, debhelper (>= 5), gfxboot, gfxboot-theme-sidux (>= 0.4.25)
 Standards-Version: 3.7.2
 
-Package: sidux-graphics-common
-Architecture: all
-Description: artwork common to all sidux versions
- This package contains generic artwork that is not specifc to any
- sidux release architecture.
- .
- It currently includes custom sidux kside and kmenu graphics.
-
 Package: sidux-graphics
 Architecture: all
 Description: artwork and themes for sidux
@@ -23,4 +15,3 @@ Description: artwork and themes for sidux
  .
  This package also serves as a virtual package that brings together
  the complete sidux theme.
-

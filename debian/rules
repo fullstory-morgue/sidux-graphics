@@ -27,19 +27,6 @@ common-build-indep::
 			gfxboot-$$arch/message.live; \
 	done
 
-install/sidux-graphics-common::
-	# ksplash
-	install -D -m 0644 ksplashrc \
-		debian/sidux-graphics-common/etc/skel/.kde/share/config/ksplashrc
-	# kside
-	#install -D -m 0644 kside/kside.png \
-	#	debian/sidux-graphics-common/usr/share/apps/kicker/pics/kside.png
-	# kmenu
-	#for size in 16x16 22x22 32x32 48x48 64x64 128x128; do \
-	#	install -D -m 0644 kmenu/$$size/kmenu.png \
-	#		debian/sidux-graphics-common/usr/share/icons/crystalsvg/$$size/apps/kmenu.png; \
-	#done
-
 install/sidux-graphics::
 	# wallpaper - no longer required, see sidux-art-wallpaper
 	#install -D -m 0644 wallpaper/background.jpg \

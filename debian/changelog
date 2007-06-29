@@ -1,8 +1,12 @@
 sidux-graphics (0.7.18) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 28 May 2007 15:08:12 +0200
+  [ Kel Modderman ]
+  * Remove sidux-graphics-common.
+
+ -- Kel Modderman <kel@otaku42.de>  Fri, 29 Jun 2007 21:18:11 +1000
 
 sidux-graphics (0.7.17) unstable; urgency=low
 
