@@ -1,15 +1,14 @@
-sidux-graphics (0.7.18) UNRELEASED; urgency=low
-
-  * NOT RELEASED YET
+sidux-graphics (0.7.18) unstable; urgency=low
 
   [ Stefan Lippers-Hollmann ]
   * add VCS control headers.
+  * build against Ερως artwork.
 
   [ Kel Modderman ]
   * Remove sidux-graphics-common.
   * Also remove ksplashrc.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 11 Sep 2007 20:22:36 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 07 Oct 2007 12:51:28 +0200
 
 sidux-graphics (0.7.17) unstable; urgency=low
 
