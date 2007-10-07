@@ -1,8 +1,9 @@
 sidux-graphics (0.7.19) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
+  * update syntax for Vcs headers in debian/control
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 07 Oct 2007 13:02:36 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 07 Oct 2007 14:48:49 +0200
 
 sidux-graphics (0.7.18) unstable; urgency=low
 

@@ -5,8 +5,8 @@ Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Uploaders: Kel Modderman <kelrin@tpg.com.au>
 Build-Depends: cdbs, debhelper (>= 5), gfxboot, gfxboot-theme-sidux (>= 0.4.25)
 Standards-Version: 3.7.2
-XS-Vcs-Svn: svn://svn.berlios.de/fullstory/sidux-graphics/trunk
-XS-Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/sidux-graphics/trunk/
+Vcs-Svn: svn://svn.berlios.de/fullstory/sidux-graphics/trunk
+Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/sidux-graphics/trunk/
 
 Package: sidux-graphics
 Architecture: all
