@@ -1,3 +1,9 @@
+sidux-graphics (0.7.22) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 11 Nov 2007 16:50:15 +0100
+
 sidux-graphics (0.7.21) unstable; urgency=low
 
   * build against gfxboot-theme-sidux 0.4.30.
