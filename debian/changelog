@@ -1,8 +1,9 @@
-sidux-graphics (0.7.22) UNRELEASED; urgency=low
+sidux-graphics (0.7.22) ORPHANED; urgency=low
 
   * NOT RELEASED YET
+  * ORPHAN PACKAGE (finally!)
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 11 Nov 2007 16:50:15 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 11 Nov 2007 21:58:28 +0100
 
 sidux-graphics (0.7.21) unstable; urgency=low
 

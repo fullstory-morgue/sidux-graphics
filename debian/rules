@@ -3,38 +3,3 @@
 include /usr/share/cdbs/1/rules/buildcore.mk
 include /usr/share/cdbs/1/rules/debhelper.mk
 
-GFXTMP := debian/tmp/gfxboot/build
-GFXARCH := sidux
-
-common-build-indep::
-	for arch in $(GFXARCH); do \
-		rm -rf $(GFXTMP); \
-		mkdir -p $(GFXTMP); \
-		cp -r --dereference \
-			/usr/share/gfxboot-theme-sidux/gfxboot-theme/$$arch-*/* \
-			$(GFXTMP)/; \
-		$(MAKE) -C $(GFXTMP); \
-		install -D -m 0644 $(GFXTMP)/boot/message \
-			gfxboot-$$arch/message.hd; \
-		rm -rf $(GFXTMP); \
-		mkdir -p $(GFXTMP); \
-		cp -r --dereference \
-			/usr/share/gfxboot-theme-sidux/gfxboot-theme/$$arch-*/* \
-			$(GFXTMP)/; \
-		sed -i 's#^/livecd false def#/livecd true def#' $(GFXTMP)/boot.config; \
-		$(MAKE) -C $(GFXTMP); \
-		install -D -m 0644 $(GFXTMP)/boot/message \
-			gfxboot-$$arch/message.live; \
-	done
-
-install/sidux-graphics::
-	# wallpaper - no longer required, see sidux-art-wallpaper
-	#install -D -m 0644 wallpaper/background.jpg \
-	#	debian/sidux-graphics/usr/share/wallpapers/sidux.jpg
-	# gfxboot message files
-	mkdir -p debian/sidux-graphics/boot/
-	install -m 0644 gfxboot-sidux/message.* \
-		debian/sidux-graphics/boot/
-
-clean::
-	rm -rf gfxboot-*
